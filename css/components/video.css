@@ -1,0 +1,9 @@
+.hero-video  {
+    display: flex;
+ width: 100%;
+    height: auto;
+    max-height: 80vh;
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 0 1px #fff;
+    justify-content: center;
+}

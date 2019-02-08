@@ -1,0 +1,29 @@
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-text {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: black;
+
+}
+
+.middle-text button {
+  border: 1px solid;
+  padding: 10px 25px;
+  color: #02A3AA;
+  text-align: center;
+}
+
+.middle-text button:hover {
+  background-color: #FF6B59;
+  color: white;
+}
+
+.bottom {
+  background-color: #FDFDFD;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}

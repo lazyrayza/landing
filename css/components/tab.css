@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    padding: 36px 0;
+    justify-content: space-around;
+}
+
+.logo {
+      margin-left: 40px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: #6AD58B;
+}
+
+.menu a {
+    margin-left: 20px;
+    opacity: .8;
+    transition: all .2s ease;
+}
+
+.menu a.active {
+    color: #6d48e5;
+    opacity: 1;
+}
+
+.menu .jobs span {
+    position: absolute;
+    border-radius: 50%;
+    left: 100%;
+    font-size: 11px;
+    font-weight: 600;
+    color: #6d48e5;
+    height: 18px;
+    width: 18px;
+    background: #eae4fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 60%;
+    padding-left: 1px;
+}
